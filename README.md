@@ -33,8 +33,7 @@ optional arguments:
 
 Example Basic Scan:
 
-xen0ph0n@pir8ship:~/tools$ python vt.py
-../../VirtualBox_Share/wsusservice.dll -s
+xen0ph0n@pir8ship:~/tools$ python vt.py ../../VirtualBox_Share/wsusservice.dll -s
 
       Results for MD5:  92d37a92138659fa75f45ccb87242910 
 
@@ -56,8 +55,7 @@ xen0ph0n@pir8ship:~/tools$ python vt.py
 
 Example Verbose Scan + Download + Pcap + Json Save + Force Rescan:
 
-xen0ph0n@pir8ship:~/tools$ python vt.py
-287f3dda64b830a5ac5a6df3266f7d08 -pdvjr
+xen0ph0n@pir8ship:~/tools$ python vt.py 287f3dda64b830a5ac5a6df3266f7d08 -pdvjr
 
       Results for MD5:  287f3dda64b830a5ac5a6df3266f7d08 
 
@@ -123,11 +121,9 @@ xen0ph0n@pir8ship:~/tools$ python vt.py
        AVG                      True     Dropper.Generic6.APFX
        Panda                    True     Generic Trojan
 
-       Malware Downloaded to File --
-VTDL287F3DDA64B830A5AC5A6DF3266F7D08.danger
+       Malware Downloaded to File -- VTDL287F3DDA64B830A5AC5A6DF3266F7D08.danger
 
        PCAP Downloaded to File -- VTDL287F3DDA64B830A5AC5A6DF3266F7D08.pcap
 
-       Virus Total Rescan Initiated for --
-287F3DDA64B830A5AC5A6DF3266F7D08 (Requery in 10 Mins)
+       Virus Total Rescan Initiated for -- 287F3DDA64B830A5AC5A6DF3266F7D08 (Requery in 10 Mins)
 </pre>
