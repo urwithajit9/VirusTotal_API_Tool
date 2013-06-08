@@ -3,6 +3,8 @@ This is a simple tool to utilize the basic functionality of the Private API From
 
 NOTE: You need your own premium VT API to use this tool. API Key Goes on Line 13! 
 
+NOTE2: If you have a free VT Public API (you do) then you can use VTlite.py with limited functionality (Check Hash/Path/Rescan/DownloadJson/VerboseDetections) four checks per minute are allowed.
+
 ## Authors & Licence
 Orginal Script Author: Adam Meyers
 
