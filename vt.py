@@ -30,7 +30,7 @@ class vtAPI():
         result = urllib2.urlopen(req)
         downloadedfile = result.read()
         if len(downloadedfile) > 0:
-          fo = open(name,"w")
+          fo = open(name,"wb")
           fo.write(downloadedfile)
           fo.close()
           print "\n\tMalware Downloaded to File -- " + name
@@ -45,7 +45,7 @@ class vtAPI():
         result = urllib2.urlopen(req)
         pcapfile = result.read()
         if len(pcapfile) > 0 and '{"response_code": 0, "hash":' not in pcapfile :
-          fo = open(name,"w")
+          fo = open(name,"wb")
           fo.write(pcapfile)
           fo.close()
           print "\n\tPCAP Downloaded to File -- " + name
