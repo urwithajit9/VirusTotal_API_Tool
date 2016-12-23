@@ -44,7 +44,7 @@ xen0ph0n@pir8ship:~/tools$ python vt.py ../../VirtualBox_Share/wsusservice.dll -
       Kaspersky Detection: Backdoor.Win32.Agent.clfe 
       TrendMicro Detection: BKDR_BRIBA.A 
       Scanned on: 2012-09-28 02:44:37 
-      First Seen: 2012-08-15 12:36:02 
+      First Seen: 2012-08-15 12:36:02 (KeyError, if report don't have this info)
       Last Seen: 2012-09-28 02:44:37 
       Unique Sources 3 
       Submission Names:
@@ -53,7 +53,7 @@ xen0ph0n@pir8ship:~/tools$ python vt.py ../../VirtualBox_Share/wsusservice.dll -
             wsusservice2.dll_
             file-4567337_
 
-
+Note: (KeyError, if report don't have this info)
 
 Example Verbose Scan + Download + Pcap + Json Save + Force Rescan:
 
